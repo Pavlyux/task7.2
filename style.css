@@ -1,0 +1,480 @@
+html, body {
+    margin: 0}
+
+a {
+    text-decoration: none;
+    cursor: pointer;}
+
+img {
+    max-width: 100%;}
+    
+@media screen and (min-width: 1024px) {
+
+    header{
+        background-image: url(assets/header.png);
+        width: 100%;
+        height: 100vh;
+        background-position: center;    
+        display: grid;
+        grid-template-rows: 20vh 1fr;
+    }
+
+    .heading {
+        display: grid;
+        width: 80%;
+        grid-template-columns: 1fr 80%; 
+        margin: auto;    
+        padding: 10px;
+    }
+
+    nav{   
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        justify-content: space-between;
+        width: 80%;
+        justify-items: center;
+        align-content: center;
+        justify-self: left;}
+
+    nav a {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 21px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        opacity: 0.7;}
+
+    .discover {
+        display: grid;
+        height: 30vh;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        align-self: center;
+        justify-content: center;}
+
+    h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 3vw;
+        line-height: 5vh;
+        color: #FFFFFF;
+        }
+
+    .button {
+        display: flex;
+        flex-direction: space-around;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        gap: 8px;
+        width: 20vw;
+        height: 10vh;
+        background: #7B61FF;
+        cursor: pointer;
+        border-radius: 12px;
+        margin: auto;}
+
+    h4
+        {font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.5vw;
+        line-height: 2em;
+        color: #FFFFFF;}
+
+    main {
+        display: grid;
+        row-gap: 15vh;
+    }
+
+    section {
+        display: grid;
+        justify-content: center;
+        row-gap: 10vh;
+    }
+
+    h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 48px; 
+        color: #161414;
+    }
+
+    p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1em;
+        line-height: 32px;
+        color: #5B5B5B;}
+
+    .popular {
+        display: grid;
+        width: 90vw;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 1rem;}
+
+    .hotels {
+        display: grid;
+        width: 90vw;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 1rem;}
+
+    .travel {
+        display: grid;
+        width: 90vw;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 1rem;}
+
+    .activities {
+        display: grid;
+        width: 90vw;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 1rem;}
+
+    h3 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: #161414;}
+
+    .about_us {
+            display: grid;
+            width: 75vw;
+            justify-content: center;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;}
+
+    footer{
+        display: grid;
+        height: 40vh;
+        grid-template-rows: 1fr 7vh 6vh;
+        justify-content: center;
+        justify-items: center;
+        align-items: end}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    header{
+        background-image: url(assets/header.png);
+        height: 70vh;
+        background-position: center;    
+        display: grid;
+        grid-template-rows: 15vh 1fr;
+        justify-content: center;
+    }
+    
+    .heading {
+        display: grid;
+        grid-template-rows: 1fr 1fr; 
+        justify-content: center;
+        justify-items: center;
+        padding: 5px;
+    }
+
+
+    nav{   
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        justify-content: space-between;
+        justify-items: center;
+        align-content: center;}
+    
+    nav a {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 2.5vw;
+        line-height: 21hv;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        opacity: 0.7;}
+    
+    .discover {
+        display: grid;
+        height: 30vh;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        align-self: center;
+        justify-content: center;}
+    
+    h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 5vw;
+        line-height: 5vh;
+        color: #FFFFFF;
+        }
+    
+    .button {
+        display: flex;
+        flex-direction: space-around;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        gap: 8px;
+        width: 32vw;
+        height: 5vh;
+        background: #7B61FF;
+        cursor: pointer;
+        border-radius: 12px;
+        margin: auto;}
+    
+    h4
+        {font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2vw;
+        line-height: 2em;
+        color: #FFFFFF;}
+    
+    main {
+        display: grid;
+        row-gap: 5vh;
+    }
+    
+    section {
+        display: grid;
+        justify-content: center;
+        row-gap: 5vh;
+    }
+    
+    h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 48px; 
+        color: #161414;
+        text-align: center;
+    }
+    
+    p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.2em;
+        line-height: 5.5vh;
+        color: #5B5B5B;}
+    
+    .popular {
+        display: grid;
+        width: 80vw;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;}
+    
+    .hotels {
+        display: grid;
+        width: 80vw;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;}
+    
+    .travel {
+        display: grid;
+        width: 80vw;
+        grid-template-columns: 40% 1fr;
+        gap: 1rem;}
+    
+    .activities {
+        display: grid;
+        width: 80vw;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;}
+    
+    h3 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: #161414;}
+    
+    .about_us {
+            display: grid;
+            width: 80vw;
+            justify-content: center;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            gap: 1rem;}
+    
+    footer{
+        display: grid;
+        height: 30vh;
+        grid-template-rows: 1fr 5vh 7vh;
+        justify-content: center;
+        justify-items: center;
+        align-items: end}
+
+    .p_footer {
+        text-align: center;
+        font-size: 1.5vw;
+        line-height: 1vh;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    header{
+        background-image: url(assets/header.png);
+        height: 60vh;
+        background-position: center;    
+        display: grid;
+        grid-template-rows: 15vh 1fr;
+        justify-content: center;
+    }
+    
+    .heading {
+        display: grid;
+        grid-template-rows: 1fr 1fr; 
+        justify-content: center;
+        justify-items: center;
+        padding: 5px;
+    }
+
+    .destination {
+        display: none;
+        }
+
+    nav{   
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        justify-content: space-between;
+        justify-items: center;
+        align-content: center;}
+    
+    nav a {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 2.5vw;
+        line-height: 21hv;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        opacity: 0.7;}
+    
+    .discover {
+        display: grid;
+        height: 30vh;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        align-self: center;
+        justify-content: center;}
+    
+    h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 5vw;
+        line-height: 5vh;
+        color: #FFFFFF;
+        }
+    
+    .button {
+        display: flex;
+        flex-direction: space-around;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        gap: 8px;
+        width: 40vw;
+        height: 5vh;
+        background: #7B61FF;
+        cursor: pointer;
+        border-radius: 12px;
+        margin: auto;}
+    
+    h4
+        {font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2.5vw;
+        line-height: 2em;
+        color: #FFFFFF;}
+    
+    main {
+        display: grid;
+        row-gap: 5vh;
+    }
+    
+    section {
+        display: grid;
+        justify-content: center;
+        row-gap: 3vh;
+    }
+    
+    h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 4vw;
+        line-height: 5vh; 
+        color: #161414;
+        text-align: center;
+    }
+    
+    p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.7vw;
+        line-height: 6vh;
+        color: #5B5B5B;}
+    
+    .popular {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;}
+    
+    .hotels {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;}
+    
+    .travel {
+        display: grid;
+        grid-template-columns: 40% 1fr;
+        gap: 1rem;}
+    
+    .activities {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;}
+    
+    h3 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 3vw;
+        line-height: 4vh;
+        color: #161414;
+        text-align: center;}
+    
+    .about_us {
+            display: grid;
+            justify-content: center;
+            justify-items: center;
+            gap: 1rem;}
+
+    footer{
+        display: grid;
+        height: 25vh;
+        grid-template-rows: 1fr 6vh 5vh;
+        justify-content: center;
+        justify-items: center;
+        align-items: end
+    }
+
+    .p_footer {
+        text-align: center;
+        font-size: 2vw;
+    }
+}
